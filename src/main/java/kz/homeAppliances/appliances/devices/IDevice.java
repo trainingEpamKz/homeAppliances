@@ -1,11 +1,10 @@
 package kz.homeAppliances.appliances.devices;
 
-import com.sun.istack.internal.NotNull;
 import kz.homeAppliances.appliances.devices.devicesPlug.TypePlug;
-import kz.homeAppliances.appliances.devices.devicesType.TypeDevices;
 
 /**
- * Типизирующий интерфейс
+ * Типизирующий интерфейс.
+ *
  */
 public interface IDevice extends Comparable <IDevice>{
     /**

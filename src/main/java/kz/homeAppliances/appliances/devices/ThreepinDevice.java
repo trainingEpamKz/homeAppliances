@@ -5,7 +5,8 @@ import kz.homeAppliances.appliances.devices.devicesType.TypeDevices;
 
 /**
  * Устройство с трех-пиновой
- * розеткой
+ * розеткой.
+ *
  */
 public class ThreepinDevice extends Device {
     private TypePlug typePlug;

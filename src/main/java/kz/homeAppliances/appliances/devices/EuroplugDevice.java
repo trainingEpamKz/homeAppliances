@@ -4,7 +4,8 @@ import kz.homeAppliances.appliances.devices.devicesPlug.TypePlug;
 import kz.homeAppliances.appliances.devices.devicesType.TypeDevices;
 
 /**
- * Устройство с евро розеткой
+ * Устройство с евро розеткой.
+ *
  */
 public class EuroplugDevice extends Device {
     private TypePlug typePlug;
