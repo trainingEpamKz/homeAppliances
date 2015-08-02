@@ -14,12 +14,13 @@ import java.util.Properties;
  *
  */
 public class DevProperties {
+    private final static String SOURCE_PATH = "devices.txt";
     private static Map<TypeDevices, Integer> priceFromFile = new HashMap<>();
 
     private void loadProperties() throws LoadPropFromFileException {
         try {
             Properties properties = new Properties();
-            FileInputStream fis = new FileInputStream("devices.txt");
+            FileInputStream fis = new FileInputStream(SOURCE_PATH);
             properties.load(fis);
             for (int i = 0; i < TypeDevices.values().length; i++) {
                 priceFromFile.put(TypeDevices.values()[i],
