@@ -38,7 +38,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>kz.e16traning.coffeevan.Run</mainClass>
+              <mainClass>kz.homeAppliances.appliances.Run</mainClass>
             </manifest>
           </archive>
         </configuration>
@@ -51,7 +51,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>kz.e16traning.coffeevan.Run</mainClass>
+              <mainClass>kz.homeAppliances.appliances.Run</mainClass>
             </manifest>
           </archive>
         </configuration>
