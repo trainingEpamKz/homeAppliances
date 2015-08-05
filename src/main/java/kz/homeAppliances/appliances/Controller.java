@@ -69,7 +69,7 @@ public class Controller {
      */
     public void generateDevices(int countOfDevices) {
         if (countOfDevices > 0) generate.add(countOfDevices);
-        else System.out.println("Cant generate " + countOfDevices + "devices");
+        else System.out.println("Cant generate " + countOfDevices + " devices");
     }
 
     /**
